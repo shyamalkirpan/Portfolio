@@ -18,4 +18,5 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
       showPageControls: false,
     }
   );
+  document.getElementsByClassName("sdk-HidingBranding-branding")[0].remove();
 });
