@@ -5,34 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Shyamal Kirpan Resume</title>
+    <link rel="stylesheet" href="./style.css" />
   </head>
   <body>
-    Shyamal kirpan ka Resume
-    <h1>Resume</h1>
     <div id="adobe-dc-view"></div>
     <script src="https://documentcloud.adobe.com/view-sdk/main.js"></script>
-    <script type="text/javascript">
-      document.addEventListener("adobe_dc_view_sdk.ready", function () {
-        var adobeDCView = new AdobeDC.View({
-          clientId: "36f72b21a13e43788488ddaccb3ff323",
-          divId: "adobe-dc-view",
-        });
-        adobeDCView.previewFile(
-          {
-            content: {
-              location: {
-                url: "https://shyamalkirpan.github.io/Portfolio/ShyamalResume.pdf",
-              },
-            },
-            metaData: { fileName: "ShyamalResume.pdf" },
-          },
-          {
-            showAnnotationTools: false,
-            showLeftHandPanel: false,
-            showPageControls: false,
-          }
-        );
-      });
-    </script>
+    <script src="./script.js"></script>
   </body>
 </html>
