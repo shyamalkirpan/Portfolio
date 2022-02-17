@@ -19,8 +19,12 @@
         });
         adobeDCView.previewFile(
           {
-            content: { promise: "<FILE_BLOB_PROMISE>" },
-            metaData: { fileName: "<FILE_NAME>" },
+            content: {
+              location: {
+                url: "https://github.com/shyamalkirpan/Portfolio/raw/master/Shyamal Resume.pdf",
+              },
+            },
+            metaData: { fileName: "Shyamal Resume.pdf" },
           },
           {
             showAnnotationTools: false,
