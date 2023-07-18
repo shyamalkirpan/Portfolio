@@ -10,7 +10,7 @@ document.addEventListener("adobe_dc_view_sdk.ready", function () {
           url: "https://shyamalkirpan.github.io/Portfolio/ShyamalResume.pdf",
         },
       },
-      metaData: { fileName: "ShyamalResume.pdf" },
+      metaData: { fileName: "ShyamalResume (2).pdf" },
     },
     {
       showAnnotationTools: false,
